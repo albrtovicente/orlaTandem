@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 120%;
+    background-color: rgb(165, 102, 102);
+    
+    
+    /* background-image: url("img\papiro.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+
+    color: white;  */
+}
+.container{
+    margin:1em;
+    margin: 0 auto;
+}
+header{
+    text-align: center;  
+
+}
+.logo img{
+    width: 250px;
+    height: 200px;
+    margin: 5em;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    background-color: rgb(214, 217, 163);
+
+    border: ridge .3em ;
+    border-color: brown;
+    margin: 0em;
+
+
+}
+.docente{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    
+
+} 
+.profesor{
+    width: 200PX;
+    height: 250PX;
+    background-color: rgb(214, 217, 163);
+    border: ridge .5em ;
+    border-color: brown;
+    text-align: center;
+    border-radius: 5%;
+    margin:1em 1em ;
+}
+.profesor figure{
+    margin:1em 1.5em 0 1.5em;
+    border-radius: 10%;
+    overflow: hidden;
+}
+.profesor img{
+    width: 100px;
+    height: 150px;
+}
+.equipo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+
+    
+    
+    
+}
+
+.miembro{
+    width: 200PX;
+    height: 250PX;
+    background-color: rgb(214, 217, 163);
+    border: ridge .5em ;
+    border-color: brown;
+    text-align: center;
+    border-radius: 5%;
+    margin:1em 1em ;
+
+
+}
+
+.miembro figure{
+    
+    margin:1em 1.5em 0 1.5em;
+    border-radius: 10%;
+    overflow: hidden;
+}
+.miembro img{
+    width: 100px;
+    height: 150px;
+}
